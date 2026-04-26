@@ -1,0 +1,17 @@
+# robots.txt для LUXE BEAUTY
+# Разрешаем всем поисковым роботам индексировать сайт
+User-agent: *
+Allow: /
+
+# Запрещаем индексацию служебных страниц
+Disallow: /cart
+Disallow: /checkout
+
+# Указываем путь к карте сайта
+Sitemap: https://zybkovavika.github.io/perfume-cosmetics-store/sitemap.xml
+
+# Задержка между запросами для Яндекс
+Crawl-delay: 1
+
+# Указываем предпочтительный домен
+Host: https://zybkovavika.github.io/perfume-cosmetics-store
